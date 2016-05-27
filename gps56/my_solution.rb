@@ -1,6 +1,6 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with Steven King. There was no other cohort-mate ].
+# I worked on this challenge by myself, with Steven King. There was no other cohort-mate.
 # We spent 1 hour on this challenge.
 
 require_relative 'state_data'
