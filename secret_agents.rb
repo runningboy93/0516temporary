@@ -9,15 +9,7 @@ puts "Would you like to encrypt or decrypt a password. Enter 'e' for encrypt or 
 agent_choice = gets.chomp
 
 puts "Please enter the password."
-@@password = gets.chomp
-
-if agent_choice == "e"
-   puts encrypt(password)
-elsif agent_choice == "d"
-   puts rot13(password)
-else
-    puts "sorry, not an option. Goodbye."
-end
+password = gets.chomp
 
 def encrypt(password)
   i = 0
